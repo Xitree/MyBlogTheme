@@ -79,3 +79,16 @@ Icons/LQIP data are generated into `src/constants/` and committed. Regenerate wi
 - **Cloudflare Workers** (`wrangler.jsonc`, set `CF_WORKERS` env var)
 - Static output to `dist/`
 
+## Firefly 修改速查
+
+- 导航菜单：`src/config/navBarConfig.ts`
+- 页面显示/隐藏：`src/config/siteConfig.ts` 的 `pages`
+- 侧边栏组件：`src/config/sidebarConfig.ts`
+- 个人资料：`src/config/profileConfig.ts`
+- 公告：`src/config/announcementConfig.ts`
+- 友链：`src/config/friendsConfig.ts`
+- 打赏：`src/config/sponsorConfig.ts`，入口开关优先改 `siteConfig.pages.sponsor`
+- 背景壁纸：`src/config/backgroundWallpaper.ts`
+- 评论系统：`src/config/commentConfig.ts`
+- 文章内容：`src/content/posts/`
+- 特殊页面：`src/content/spec/`
