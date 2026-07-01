@@ -1,4 +1,4 @@
-import {
+﻿import {
 	type NavBarConfig,
 	type NavBarLink,
 	type NavBarSearchConfig,
@@ -79,28 +79,34 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/Xitree/",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "Bilibili",
+				url: "https://space.bilibili.com/392355879?spm_id_from=333.33.0.0",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "simple-icons:bilibili",
 			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
-			},
+			// {
+			// 	name: "Gitee",
+			// 	url: "https://gitee.com/CuteLeaf/Firefly",
+			// 	external: true,
+			// 	icon: "fa7-brands:gitee",
+			// },
+			// {
+			// 	name: "QQ交流群",
+			// 	url: "https://qm.qq.com/q/ZGsFa8qX2G",
+			// 	external: true,
+			// 	icon: "fa7-brands:qq",
+			// },
+			// {
+			// 	name: "Firefly文档",
+			// 	url: "https://docs-firefly.cuteleaf.cn",
+			// 	external: true,
+			// 	icon: "material-symbols:docs",
+			// },
 		],
 	});
 
