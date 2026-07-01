@@ -53,23 +53,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "#",
-		icon: "material-symbols:info",
-		children: [
-			// 友链
-			LinkPresets.Friends,
-
-			// 打赏
-			LinkPresets.Sponsor,
-
-			// 关于页面
-			LinkPresets.About,
-		],
-	});
-
 	// 自定义导航栏链接
 	links.push({
 		name: "链接",
@@ -107,6 +90,23 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 	external: true,
 			// 	icon: "material-symbols:docs",
 			// },
+		],
+	});
+
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "#",
+		icon: "material-symbols:info",
+		children: [
+			// 友链
+			LinkPresets.Friends,
+
+			// 打赏
+			LinkPresets.Sponsor,
+
+			// 关于页面
+			LinkPresets.About,
 		],
 	});
 
