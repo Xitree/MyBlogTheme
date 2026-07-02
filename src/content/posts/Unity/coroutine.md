@@ -1,7 +1,7 @@
 ---
 title: Unity中协程的原理
 published: 2026-07-02
-pinned: true
+pinned: false
 description: "协程的说明"
 image: ""
 tags: ["Unity", "协程"]
@@ -48,7 +48,7 @@ public class CoroutineStateMachineMapping : MonoBehaviour
     // Unity 调度器根据 Current 的类型决定何时再次调用 MoveNext()
     // ----------------------------
 
-    // 教学用：手写等价状态机（结构接近编译器生成物）
+    // 手写等价状态机（结构接近编译器生成物）
     private sealed class DemoCoroutine_StateMachine : IEnumerator
     {
         private int _state;        // 0: start, 1: after yield null, 2: after WaitForSeconds, -1: end
@@ -182,7 +182,7 @@ public class HandWrittenStateMachineDemo : MonoBehaviour
         _runner.Tick();
     }
 
-    // -------------------- 1) 你原本写的协程（对照用，不参与运行） --------------------
+    // -------------------- 1) 原本写的协程（对照用，不参与运行） --------------------
     private IEnumerator MyRoutine(string name)
     {
         Debug.Log($"{name}: A");
