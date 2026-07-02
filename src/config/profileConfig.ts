@@ -33,17 +33,17 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/Xitree",
 			showName: false,
 		},
-		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:406535838@qq.com",
-			showName: false,
-		},
 		// {
-		// 	name: "RSS",
-		// 	icon: "fa7-solid:rss",
-		// 	url: "/rss/",
+		// 	name: "Email",
+		// 	icon: "fa7-solid:envelope",
+		// 	url: "mailto:406535838@qq.com",
 		// 	showName: false,
 		// },
+		{
+			name: "RSS",
+			icon: "fa7-solid:rss",
+			url: "/rss/",
+			showName: false,
+		},
 	],
 };
