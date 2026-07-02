@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "の博客",
 
 	// 站点 URL
-	site_url: "https://xiaobai.com",
+	site_url: "https://www.weibaitown.loan/",
 
 	// 站点描述
 	description:
