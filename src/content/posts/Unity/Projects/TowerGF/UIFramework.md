@@ -150,7 +150,7 @@ graph TD
 
 ## 9. 和 MVC / MVP / MVVM 的定位对比
 
-MVC / MVP / MVVM 的核心都是**把「数据、展示、交互逻辑」拆开**，区别在于**谁来协调 Model 和 View**。这三种模式我在另一篇里用血量 UI 示例做过详细对比，这里不再展开：[Unity 中的 MVC / MVP / MVVM](/posts/Unity/UI/MVCMvpMvvm/)。
+MVC / MVP / MVVM 的核心都是**把「数据、展示、交互逻辑」拆开**，区别在于**谁来协调 Model 和 View**。这三种模式我在另一篇里用血量 UI 示例做过详细对比，这里不再展开：[Unity 中的 MVC / MVP / MVVM](/posts/unity/ui/mvcmvpmvvm/)。
 
 回到本项目，它更接近 **「Form-centric + 中心化 UI Manager」**，而不是严格的 MVC / MVP / MVVM：
 
